@@ -5,6 +5,7 @@ pipeline {
     stage('Demo1') {
       steps {
         sh '''
+          sleep 60
           node --version // node.js version
         '''
       }
